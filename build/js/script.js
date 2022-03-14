@@ -1,6 +1,1 @@
-alert(`Hello world!`);
-document.write(`New word!`);
- const example = () => {
-     console.log(`Nothing`);
- }
- 
+const menu=document.querySelector(".main-menu"),openButton=document.querySelector(".header__burger");openButton.addEventListener("click",()=>{menu.classList.toggle("main-menu--hide"),openButton.classList.contains("header__burger--open")?(openButton.classList.remove("header__burger--open"),openButton.classList.add("header__burger--close")):(openButton.classList.remove("header__burger--close"),openButton.classList.add("header__burger--open"))});

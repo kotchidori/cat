@@ -1,0 +1,19 @@
+//Для телефона
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+//Для планшета
+@media (min-width: 768px) {
+    .container {
+        width: 660px;
+        margin: 0 29px;
+    }
+  }
+//Для ПК
+  @media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        padding: 0 130px;
+    }
+  }
