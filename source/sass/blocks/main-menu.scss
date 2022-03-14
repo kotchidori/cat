@@ -1,0 +1,35 @@
+.main-menu__link {
+  color: $black;
+}
+
+.main-menu__item {
+  padding: 22px 69px;
+  text-align: center;
+  border: 1px $gray solid;
+  font-family: $font;
+  font-weight: $medium;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.main-menu--hide {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-menu--hide {
+    display: block;
+  }
+
+  .main-menu__list {
+    display: inline-flex;
+  }
+
+  .main-menu__item {
+    padding: 0;
+    border: none;
+    margin-right: 33px;
+    padding-top: 24px;
+  }
+}

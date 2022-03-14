@@ -138,20 +138,14 @@
     display: none;
   }
 
-  .header__top-item {
-    padding: 0;
-    border: none;
-    margin-right: 33px;
-    padding-top: 24px;
-  
-  }
+
 
   .header__top-item:last-child {
     margin: 0;
   }
 
   .main-menu__list {
-    display: inline-flex;
+    display: flex;
   }
   .header__logo-wrapper {
     padding: 0;
@@ -160,11 +154,9 @@
     margin-right: 90px;
   }
   .header__top {
-    display: inline-flex;
+    display: flex;
     // margin-left: -30px;
     width: 100%;
   }
-  
-
 }
     
